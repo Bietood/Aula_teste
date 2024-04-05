@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+
+}
+
+body {
+    background-color:darkgrey;
+}
+.box {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    border-radius: 10px;
+
+    height: 400px;
+    width: 400px;
+
+    background-color: rgb(50, 88, 214);
+    
+}
+
+#formulario label {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#formulario input, button {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#formulario input {
+    font-size: 20px;
+
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#formulario button {
+    height: 40px;
+    font-size: 18px;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#formulario button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#formulario a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    color: aliceblue;
+}
+#formulario a:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.box #formulario #grupo_login, #grupo_senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    height: 70px;
+  }
+  
+  .box #formulario #grupo_botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    height: 75px;
+  }
